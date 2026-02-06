@@ -1,7 +1,5 @@
 /* =====================================
-   Typsnitt för rubriker (h1–h6)
-   Enligt uppgiften ska rubriker använda
-   Arial, Helvetica, sans-serif
+   Typsnitt för rubriker h1–h6
    ===================================== */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
@@ -9,24 +7,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* =====================================
    Typsnitt för övrig text
-   Body används för att påverka all
-   vanlig text på sidan
    ===================================== */
 body {
     font-family: Candara, Verdana, sans-serif;
 }
 
 /* =====================================
-   Klass för lista
-   Visar användning av class i CSS
+   Lista – class
    ===================================== */
 .lista {
     list-style-type: square;
 }
 
 /* =====================================
-   Tabell 1
-   Bakgrundsfärg enligt uppgiften: #ffcccc
+   Tabell 1 – bakgrundsfärg #ffcccc
    ===================================== */
 .tabell1 {
     background-color: #ffcccc;
@@ -35,8 +29,7 @@ body {
 }
 
 /* =====================================
-   Tabell 2
-   Bakgrundsfärg enligt uppgiften: #ffcc99
+   Tabell 2 – bakgrundsfärg #ffcc99
    ===================================== */
 .tabell2 {
     background-color: #ffcc99;
@@ -45,9 +38,7 @@ body {
 }
 
 /* =====================================
-   Gemensam stil för tabellceller
-   Gör tabellerna tydligare och lättare
-   att läsa
+   Tabellceller
    ===================================== */
 .tabell1 td,
 .tabell2 td,
@@ -57,16 +48,14 @@ body {
 }
 
 /* =====================================
-   Text längst ner på sidan
-   ID används enligt uppgiften
-   Grön färg: #009900
+   Grön text längst ner – ID
    ===================================== */
 #source {
     color: #009900;
 }
 
 /* =====================================
-   Grundutseende för länkar
+   Länkar
    ===================================== */
 a {
     color: blue;
@@ -74,12 +63,11 @@ a {
 }
 
 /* =====================================
-   Hover-effekt för länkar
-   När muspekaren förs över länken
-   ändras färg och bakgrund
+   Hover-effekt på länkar
    ===================================== */
 a:hover {
     color: white;
     background-color: #009900;
     padding: 2px 4px;
 }
+
