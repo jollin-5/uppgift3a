@@ -1,11 +1,5 @@
-
-
-body {
-    background-color: yellow;
-}
-
 /* =====================================
-   Typsnitt för rubriker h1–h6
+   Typsnitt för rubriker (h1–h6)
    ===================================== */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
@@ -19,32 +13,41 @@ body {
 }
 
 /* =====================================
-   Lista – class
+   Lista – använder class
    ===================================== */
 .lista {
     list-style-type: square;
 }
 
 /* =====================================
-   Tabell 1 – bakgrundsfärg #ffcccc
+   Gemensamma tabellinställningar
    ===================================== */
-.tabell1 {
-    background-color: #ffcccc;
+.tabell1,
+.tabell2 {
     border-collapse: collapse;
     margin-bottom: 20px;
+}
+
+/* =====================================
+   Tabell 1 – bakgrundsfärg #ffcccc
+   Bakgrund sätts på td eftersom
+   cellerna annars täcker tabellen
+   ===================================== */
+.tabell1 td {
+    background-color: #ffcccc;
 }
 
 /* =====================================
    Tabell 2 – bakgrundsfärg #ffcc99
+   Gäller både td och th
    ===================================== */
-.tabell2 {
+.tabell2 td,
+.tabell2 th {
     background-color: #ffcc99;
-    border-collapse: collapse;
-    margin-bottom: 20px;
 }
 
 /* =====================================
-   Tabellceller
+   Kantlinjer och padding för tabeller
    ===================================== */
 .tabell1 td,
 .tabell2 td,
@@ -54,7 +57,7 @@ body {
 }
 
 /* =====================================
-   Grön text längst ner – ID
+   Grön text längst ner (ID används)
    ===================================== */
 #source {
     color: #009900;
@@ -76,5 +79,3 @@ a:hover {
     background-color: #009900;
     padding: 2px 4px;
 }
-
-
