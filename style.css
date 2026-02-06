@@ -1,3 +1,9 @@
+
+
+body {
+    background-color: yellow;
+}
+
 /* =====================================
    Typsnitt för rubriker h1–h6
    ===================================== */
@@ -70,4 +76,5 @@ a:hover {
     background-color: #009900;
     padding: 2px 4px;
 }
+
 
